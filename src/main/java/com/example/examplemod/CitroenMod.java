@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -12,10 +13,12 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.slf4j.Logger;
 
 @Mod(CitroenMod.MODID)
 public class CitroenMod {
     public static final String MODID = "citroenmod";
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
