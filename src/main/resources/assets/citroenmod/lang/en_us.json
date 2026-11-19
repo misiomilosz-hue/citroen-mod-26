@@ -1,0 +1,13 @@
+{
+  "itemGroup.citroenmod": "Example Mod Tab",
+  "block.citroenmod.example_block": "Example Block",
+  "item.citroenmod.example_item": "Example Item",
+
+  "citroenmod.configuration.title": "Citroen Mod Configs",
+  "citroenmod.configuration.section.citroenmod.common.toml": "Citroen Mod Configs",
+  "citroenmod.configuration.section.citroenmod.common.toml.title": "Citroen Mod Configs",
+  "citroenmod.configuration.items": "Item List",
+  "citroenmod.configuration.logDirtBlock": "Log Dirt Block",
+  "citroenmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "citroenmod.configuration.magicNumber": "Magic Number"
+}
